@@ -47,7 +47,7 @@ header {
 }
 
 .btn {
-   animation: blinker 1s linear infinite;
+   animation: blinker 1.8s linear infinite;
 }
 
 @keyframes blinker {
