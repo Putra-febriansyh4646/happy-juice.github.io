@@ -46,6 +46,16 @@ header {
 
 }
 
+.btn {
+   animation: blinker 1.8s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 .header-right {
   float: right;
   margin-right: -25px;
